@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import PrivacyPolicy from "./components/privacy-policy";
 import Terms from "./components/TermsOfService";
+import DataDeletion from "./components/DataDeletion"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         {/* Routes */}
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/data-deletion" element={<DataDeletion />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<Terms />} />
         </Routes>
