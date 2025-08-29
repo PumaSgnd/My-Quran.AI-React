@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div>
         {/* Navbar */}
-        <nav style={{ 
+        {/* <nav style={{ 
           padding: "10px", 
           background: "#282c34", 
           display: "flex", 
@@ -17,11 +17,11 @@ function App() {
           <Link to="/" style={{ color: "white", textDecoration: "none" }}>Home</Link>
           <Link to="/privacy-policy" style={{ color: "white", textDecoration: "none" }}>Privacy Policy</Link>
           <Link to="/terms-of-service" style={{ color: "white", textDecoration: "none" }}>Terms</Link>
-        </nav>
+        </nav> */}
 
         {/* Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<Terms />} />
         </Routes>
