@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./components/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Home from "./components/Home";
 import PrivacyPolicy from "./components/privacy-policy";
 import Terms from "./components/TermsOfService";
 import DataDeletion from "./components/DataDeletion"
